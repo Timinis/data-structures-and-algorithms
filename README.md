@@ -1,11 +1,11 @@
 # Reverse an Array
 
-<!-- Short summary or background information -->
+<!-- Code Challenge 01 -->
 
 ## Challenge
 
-<!-- Description of the challenge -->
+<!-- Takes in an array and reverse the order of that array -->
 
 ## Solution
 
-<!-- Embedded whiteboard image -->
+<!-- ![alt text](./assets/array_reverse.jpg) -->
