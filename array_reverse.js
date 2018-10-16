@@ -20,9 +20,22 @@ const reverseArray2 = arr => {
   newArr[arr.length - 1 - count] = arr[count];
   count++;
   if (count < arr.length) {
-    return reverseArray(arr);
+    return reverseArray2(arr);
   } else {
     count = 0;
     return newArr2;
+  }
+};
+
+// stretch goal with recursion without global variables
+
+const reverseArray3 = (arr, count, newArr) => {
+  newArr[arr.length - 1 - count] = arr[count];
+  count++;
+  if (count < arr.length) {
+    return reverseArray3(arr, count, newArr);
+  } else {
+    count = 0;
+    return newArr;
   }
 };
