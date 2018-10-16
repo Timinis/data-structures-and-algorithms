@@ -35,7 +35,6 @@ const reverseArray3 = (arr, count, newArr) => {
   if (count < arr.length) {
     return reverseArray3(arr, count, newArr);
   } else {
-    count = 0;
     return newArr;
   }
 };
