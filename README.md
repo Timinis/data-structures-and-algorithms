@@ -1,27 +1,27 @@
-//Day 01
+#Day 01
 
-# Reverse an Array
+## Reverse an Array
 
-<!-- Code Challenge 01 -->
+Code Challenge 01
 
-## Challenge
+### Challenge
 
-<!-- Takes in an array and reverse the order of that array -->
+Takes in an array and reverse the order of that array
 
-## Solution
+### Solution
 
 ![alt text](./assets/array_reverse.jpg)
 
-//Day 02
+#Day 02
 
 # Insert Shift an Array
 
-<!-- Code Challenge 02 -->
+## Code Challenge 02
 
-## Challenge
+### Challenge
 
-<!-- Takes in an array and a value and return a new array with the middle value inserted into the old array -->
+Takes in an array and a value and return a new array with the middle value inserted into the old array
 
-## Solution
+### Solution
 
-![alt text](./assets/inser_shift_array.jpg)
+![alt text](./assets/insert_shift_array.jpg)
