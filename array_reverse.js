@@ -29,6 +29,7 @@ const reverseArray2 = arr => {
 
 // stretch goal with recursion without global variables
 
+//for this function use array with intended to be used, the count with 0 and newArr with [];
 const reverseArray3 = (arr, count, newArr) => {
   newArr[arr.length - 1 - count] = arr[count];
   count++;
