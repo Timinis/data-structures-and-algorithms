@@ -50,14 +50,18 @@ Takes in and looks to either right or left for the object and goes from middle p
 
 Create a linked list and testing its functionalities
 
-![alt text](./assets/ll_insertions.jpg)
+![alt text](./assets/ll_insertions.jpeg)
 
-#Day 05
+#Day 06
 
 #Linked List Insertions
 
-## Code Challenge 05
+## Code Challenge 06
 
 ## Challenge
 
-Created 3 methods, one that takes in a value and append the value on the very last of linked lists, another method that looks for the specific value and add it before the value. And another one that adds it after.
+Created 3 methods, one that takes in a value and append the value on the very last of linked lists.
+
+Another method that is called beforeInsertion (2 airty), looks for the specific value and add it before the value.
+
+Another method that is called AfterInsertion (2 airty), looks for the specific value and add it after the value.
