@@ -15,27 +15,6 @@ class SingleList {
     newNode.next = this.head;
     this.head = newNode;
   }
-
-  kthFromEnd(value) {
-    let lengthCounter = 0;
-    let lead = this.head;
-    let follower = this.head;
-
-    while (this.next !== null) {
-      lead = lead.next;
-      lengthCounter++;
-      if (lengthCounter > value) {
-        console.log(follower.value);
-        follower = follower.next;
-      }
-      if (lead.next === null) {
-        if (lengthCounter < value) {
-          return 'Exception';
-        }
-        return follower.value;
-      }
-    }
-  }
 }
 
 let LL = new SingleList();
@@ -43,5 +22,3 @@ let LL = new SingleList();
 for (let i = 5; i > 0; i++) {
   LL.insert(i);
 }
-
-console.log(LL);
