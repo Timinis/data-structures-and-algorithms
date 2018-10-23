@@ -26,19 +26,25 @@ class SingleList {
       }
     }
   }
+
   insertBefore(value, newValue) {
     let current = this.head;
-    while (current.next !== null) {
-      if (current.next.value === value) {
-        let storedNode = current.next;
-        console.log(storedNode);
-        current.next = new Node(newValue, storedNode);
-        console.log(current.next);
-        return;
+    if (current.head.value === value) {
+      current = new Node(newValue, this.head);
+    } else {
+      while (current.next !== null) {
+        if (current.next.value === value) {
+          let storedNode = current.next;
+          console.log(storedNode);
+          current.next = new Node(newValue, storedNode);
+          console.log(current.next);
+          return;
+        }
+        current = current.next;
       }
-      current = current.next;
     }
   }
+
   insertAfter(value, newValue) {
     let current = this.head;
     while (current.next !== null) {
