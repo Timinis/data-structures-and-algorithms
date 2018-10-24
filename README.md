@@ -65,3 +65,18 @@ Created 3 methods, one that takes in a value and append the value on the very la
 Another method that is called beforeInsertion (2 airty), looks for the specific value and add it before the value.
 
 Another method that is called AfterInsertion (2 airty), looks for the specific value and add it after the value.
+
+![alt text](./assets/kth_from_end.jpg)
+#Day 07
+
+#linked List K-th from the end
+
+## Code Challenge 07
+
+## Challenge
+
+Create a kth from end method that takes in 1 airty value (distance), to find the node that is the distance away from the last linked node.
+
+Solved it by adding a follower tracker and starting it when it reach the threshold of the distance. It reads the value of that node and return exception when the distance is greater than the actual link length
+
+Checked up on the structure and debugged some errors.
