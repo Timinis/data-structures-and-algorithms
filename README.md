@@ -80,3 +80,15 @@ Create a kth from end method that takes in 1 airty value (distance), to find the
 Solved it by adding a follower tracker and starting it when it reach the threshold of the distance. It reads the value of that node and return exception when the distance is greater than the actual link length
 
 Checked up on the structure and debugged some errors.
+
+#Day 08
+
+#linked List K-th from the end
+
+## Code Challenge 08
+
+## Challenge
+
+Create a merge method that takes 2 airty, 2 linked list as the parameter. It returns a brand new linked list with the values appended.
+
+We accomplished this by keeping 2 current trackers and using while loop to itterate through each of them. We use an || to identify the actual longest length that needs to go forward and set an if so that the one that has the shorter length doesn't keep moving down a non-existent list. Then we append those values inside the while loop to return the linked list.
