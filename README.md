@@ -92,3 +92,26 @@ Checked up on the structure and debugged some errors.
 Create a merge method that takes 2 airty, 2 linked list as the parameter. It returns a brand new linked list with the values appended.
 
 We accomplished this by keeping 2 current trackers and using while loop to itterate through each of them. We use an || to identify the actual longest length that needs to go forward and set an if so that the one that has the shorter length doesn't keep moving down a non-existent list. Then we append those values inside the while loop to return the linked list.
+
+## Day 10
+
+# Stacks and Queues
+
+## Challenge
+
+Make stack and queues and their methods
+
+## Approach & Efficiency
+
+took the array approach for stack: because it is O(1);
+took the node approach for queue: because it is O(1) as well;
+
+## API
+
+Stack.push(value)= add item to the last of the stack
+stack.pop()= remove item to the last of the stack
+stack.peek()= look at the last of the stack;
+
+queue.enque(value)= add item to the last of the list;
+queue.dequeue = remove item from the first of the list;
+queue.peek()= look at the first item

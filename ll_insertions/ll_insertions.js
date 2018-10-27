@@ -56,6 +56,26 @@ class SingleList {
       current = current.next;
     }
   }
+
+  reverse() {
+    let updatingValue = this.head;
+    let remainingValues = updatingValue.next;
+
+    this.head = updatingValue;
+    updatingValue = updatingValue.next;
+    remainingValues = remainingValues.next;
+    console.log(LL, 'this is LL');
+    console.log(updatingValue, 'this is the value intended to update');
+    console.log(remainingValues, 'this is the remianing values');
+  }
 }
 
-module.exports = SingleList;
+let LL = new SingleList();
+LL.insert(4);
+LL.insert(3);
+LL.insert(2);
+LL.insert(1);
+LL.reverse();
+
+console.log(LL);
+// module.exports = SingleList;
