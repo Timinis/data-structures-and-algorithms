@@ -15,8 +15,12 @@ describe('Testing then psuedo que and all its features', () => {
     queue.enqueue(4);
     queue.enqueue(5);
     expect(queue.enqueue(6)).toEqual([1, 2, 3, 4, 5, 6]);
+    expect(typeof queue.enqStack).toEqual('object');
+    expect(queue.enqStack[5]).toBe(6);
   });
   it('should return the order of deque from last to first if we dequeue', () => {
     expect(queue.dequeue()).toEqual([6, 5, 4, 3, 2]);
+    expect(typeof queue.deqStack).toBe('object');
+    expect(queue.deqStack[4]).toBe(2);
   });
 });
