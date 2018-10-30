@@ -81,9 +81,10 @@ Solved it by adding a follower tracker and starting it when it reach the thresho
 
 Checked up on the structure and debugged some errors.
 
+![alt text](./assets/ll_merge.jpg)
 #Day 08
 
-#linked List K-th from the end
+#LL merge
 
 ## Code Challenge 08
 
@@ -115,3 +116,22 @@ stack.peek()= look at the last of the stack;
 queue.enque(value)= add item to the last of the list;
 queue.dequeue = remove item from the first of the list;
 queue.peek()= look at the first item
+
+## Day 11
+
+![alt text](./assets/psuedo_que.jpg)
+
+# PsuedoQue
+
+##Challenge
+
+Make queue with 2 stacks and immitate the effect of enqueue and dequeue
+
+## Approach & Efficiency
+
+Efficiency:
+for Enqueue it is O(1) if it is in continuos enqueue but O(n) if it is dequeued prior
+for DeQueue () it is O(n) if it has enqueued earlier else it is O(1);
+
+Approach:
+We stack the plate normally in a enque array then if we were to deque we push into the deque array and pop of the itmes we pushed to get a reversed approach to resemble First in first out
