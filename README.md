@@ -135,3 +135,24 @@ for DeQueue () it is O(n) if it has enqueued earlier else it is O(1);
 
 Approach:
 We stack the plate normally in a enque array then if we were to deque we push into the deque array and pop of the itmes we pushed to get a reversed approach to resemble First in first out
+
+## Day 12
+
+![alt text](./assets/animal_shelter.jpg)
+
+# Fifo Animal Shelter
+
+## Challenge
+
+Make queue that enqueue normally with object and type of species (cats/dogs) but for dequeue it reads for preferred and deque based on preferred.
+
+## Efficiency:
+
+For Enque it is O(1) for time and O(1) for space
+For Deque it is O(n) for time and O(1) for space
+
+## Approach:
+
+We approach this que with arrays and we enqueue by using push method.
+
+Then for deque we did a for loop to itterate and check on each animals for its type and we splice it out if the type matched.
