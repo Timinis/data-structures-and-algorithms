@@ -81,7 +81,7 @@ Solved it by adding a follower tracker and starting it when it reach the thresho
 
 Checked up on the structure and debugged some errors.
 
-![alt text](./assets/ll_merge.jpg)
+![alt text](./assets/n.jpg)
 #Day 08
 
 #LL merge
@@ -156,3 +156,19 @@ For Deque it is O(n) for time and O(1) for space
 We approach this que with arrays and we enqueue by using push method.
 
 Then for deque we did a for loop to itterate and check on each animals for its type and we splice it out if the type matched.
+
+![alt text](./assets/bracketChecker.jpg)
+
+# Bracket Validation
+
+## Challenge
+
+Validate matching brackets of {[]}
+
+## Efficiency:
+
+it is O(n) for time and O(1) for space
+
+## Approach:
+
+We approach this problem by removing all the alphabets, then we split it into array. We started some if function that makes it return false like odd number of elements. Then we created a recursive function that goes through pattern recognition and check with previous stack to compare and stop the recursion until all the items are on the other stack.
