@@ -172,3 +172,23 @@ it is O(n) for time and O(1) for space
 ## Approach:
 
 We approach this problem by removing all the alphabets, then we split it into array. We started some if function that makes it return false like odd number of elements. Then we created a recursive function that goes through pattern recognition and check with previous stack to compare and stop the recursion until all the items are on the other stack.
+
+# Tree methods
+
+## Challenge
+
+added tree methods
+
+## Efficiency:
+
+Added tree methods:
+
+add(): Time: O(n) space: O(1);
+search(): Time: O(n) space: O(1);
+preorder(): Time: O(n) space: O(1);
+postorder(): Time: O(n) space: O(1);
+inorder(): Time: O(n) space: O(1);
+
+## Approach:
+
+we approached trees with node and recursion, and accomplished tree implementation by navigating down the tree with recursion and checking for its state to do any of the other method listed above.
