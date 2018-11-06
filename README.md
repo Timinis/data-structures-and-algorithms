@@ -192,3 +192,20 @@ inorder(): Time: O(n) space: O(1);
 ## Approach:
 
 we approached trees with node and recursion, and accomplished tree implementation by navigating down the tree with recursion and checking for its state to do any of the other method listed above.
+
+![alt text](./assets/1-pd.jpg)
+![alt text](./assets/2-visual.jpg)
+![alt text](./assets/3-algorithm.jpg)
+![alt text](./assets/4-solution.jpg)
+
+## Challenge:
+
+To change each node that is divisible by tree into fizz, change each node that is divisible by 5 into buzz, and 15 to fizzbuzz.
+
+## Efficiency:
+
+Time: O(n) Space O(1)
+
+## Approach:
+
+Navigate down each tree node to see if they are divisble by those numbers and replace them, mainly used recursion.
