@@ -210,6 +210,21 @@ Time: O(n) Space O(1)
 
 Navigate down each tree node to see if they are divisble by those numbers and replace them, mainly used recursion.
 
+![alt text](./assets/breadthTraversal.jpg)
+
+## Challenge
+
+To create a method that uses breadth traveling
+
+## Efficiency:
+
+Time O(n) Space O(1)
+
+## Approach:
+
+add each node to the que and ass their left or right if they exist and remove that node, using this method will traverse each array and get the desired approach
+
+
 ![alt text](./assets/getMaxValueTree)
 
 ## Challenge:
