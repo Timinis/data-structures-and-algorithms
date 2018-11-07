@@ -209,3 +209,17 @@ Time: O(n) Space O(1)
 ## Approach:
 
 Navigate down each tree node to see if they are divisble by those numbers and replace them, mainly used recursion.
+
+![alt text](./assets/getMaxValueTree)
+
+## Challenge:
+
+To find the max value of the tree and compare the values.
+
+## Efficiency:
+
+Time: O(n) Space: O(1)
+
+## Approach:
+
+Navigate down each tree node to see if the value is greater than the max and replaces it and return the value of max.
