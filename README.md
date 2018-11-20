@@ -237,3 +237,16 @@ Time: O(n) Space: O(1)
 ## Approach:
 
 Navigate down each tree node to see if the value is greater than the max and replaces it and return the value of max.
+
+## Challenge:
+
+To build hashmap
+
+## Approach:
+
+Created hashing and added in methods to find, add, contains and GetHash
+
+add- get the hash and add in key pair value
+contains- check if the key exists
+find- check if the key exist and returns the value
+gethash- checks the key and returns the hash
