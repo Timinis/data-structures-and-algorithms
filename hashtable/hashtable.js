@@ -35,4 +35,21 @@ class HashMap {
     let GetHash = this.GetHash(key);
     return this.map[GetHash].find(item => item[key])[key];
   }
+
+  serialize() {
+    let str =
+      Object.entries(this)
+        .reduce((acc, curr) => {
+          if (typeof curr[1] != 'function') {
+            acc += `"${curr[0]}" : "${curr[1]}", `;
+          }
+          return acc;
+        }, '`{')
+        .slice(1, -2) + '}';
+    return str;
+  }
+
+  static deserialize(json) {
+    JSON.parse(json);
+  }
 }
