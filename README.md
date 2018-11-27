@@ -250,3 +250,17 @@ add- get the hash and add in key pair value
 contains- check if the key exists
 find- check if the key exist and returns the value
 gethash- checks the key and returns the hash
+
+![alt text](./asset/checkDuplicate.jpg)
+
+## Challenge:
+
+To check for duplicate words with a block of string
+
+## Efficiency:
+
+Time: O(n2) Space: O(n)
+
+## Approach:
+
+Split the string, first do contains method of hashmap and check for duplicate, then add it to the bucket if it doesn't match, if it does returns the string
