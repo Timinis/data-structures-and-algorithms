@@ -264,3 +264,17 @@ Time: O(n2) Space: O(n)
 ## Approach:
 
 Split the string, first do contains method of hashmap and check for duplicate, then add it to the bucket if it doesn't match, if it does returns the string
+
+![alt text](./asset/compareTree.jpg)
+
+## Challenge:
+
+To check for share value between 2 trees
+
+## Efficiency:
+
+Time: O(n) Space: O(n)
+
+## Approach:
+
+Traverse through the array, use hashmap to check for uniqueness, if not unique add it to the return array
