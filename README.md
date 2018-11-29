@@ -278,3 +278,17 @@ Time: O(n) Space: O(n)
 ## Approach:
 
 Traverse through the array, use hashmap to check for uniqueness, if not unique add it to the return array
+
+![alt text](./asset/leftJoin.jpg)
+
+## Challenge:
+
+Left join two hash map
+
+##Efficienct:
+
+Time O(n) Space O(n)
+
+## Approach
+
+Traverse through each bucket and append the value to new bucket, use the contains method to check for existing on second hash table, if it exists add it on. If not add null.
