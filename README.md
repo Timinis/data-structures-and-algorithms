@@ -292,3 +292,17 @@ Time O(n) Space O(n)
 ## Approach
 
 Traverse through each bucket and append the value to new bucket, use the contains method to check for existing on second hash table, if it exists add it on. If not add null.
+
+![alt text](./asset/breadthGraph.jpg)
+
+## Challenge:
+
+Breadth first travel on graph
+
+## Efficient:
+
+Time O(n) Space O(n)
+
+## Approach
+
+Traverse through the breadth by utilizing que and sets. First use while look until que to get each node and its neighbors and then check with sets to make sure it is not already been traversed
