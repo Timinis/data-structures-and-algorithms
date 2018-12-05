@@ -306,3 +306,17 @@ Time O(n) Space O(n)
 ## Approach
 
 Traverse through the breadth by utilizing que and sets. First use while look until que to get each node and its neighbors and then check with sets to make sure it is not already been traversed
+
+![alt text](./asset/getEdge.jpg)
+
+## Challenge:
+
+Get the edges of the array of vertices
+
+## Efficient:
+
+Time O(n^2) Space O(1)
+
+## Approach
+
+Check each array of vertices and then check the map to see if it exist, check each edge in that array. Then add the value to the returned array.
